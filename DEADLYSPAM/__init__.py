@@ -19,7 +19,7 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 deadlyversion = "v0.3.1"
 
 #values
-API_ID = config("API_ID", "21884763") default=None, cast=int)
+API_ID = config("API_ID", "21884763" default=None, cast=int)
 API_HASH = config("API_HASH","da0f54c91d30d9d9a61a80df3a3c1637" default=None)
 ALIVE_PIC = config("ALIVE_PIC","https://te.legra.ph/file/d5508122024fa2f6aadb9.jpg" default=None)
 CMD_HNDLR = getenv("CMD_HNDLR", default="!")
